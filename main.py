@@ -34,16 +34,16 @@ client = commands.Bot(command_prefix='p.',
 client.remove_command("help")
 
 # TODO change mode to 1 or 2 here
-mode = 1
+mode = 2
 
 # TODO 
 # sendall is set to 0 by default, change to 1 if you want
 # the bot to send all pinned messages to the pins channel
-sendall = 0
+sendall = 1
 
 # TODO 
-# replace the 0 with the pins channel ID for your sever
-pins_channel = 0
+# replace the 0 with the pins channel ID for your server
+pins_channel = 570818532124917812/570824299485724673
 
 # TODO
 # add any black listed channel IDs as a list separated by a comma (,)
@@ -209,7 +209,7 @@ async def on_guild_channel_pins_update(channel, last_pin):
 
 
 # TODO Replace TOKEN with the token from discord developer portal 
-client.run('TOKEN')
+client.run('1a9205a3198555f7f98063f1ea2d4b0248f3896a509842a14184c3ae4b7eab72')
 
 # TODO If using GitHub diff deployment on HeroKu comment out the above line with '#' and remove '#' from the line below to uncomment it. 
 #client.run(os.environ.get('TOKEN'))
